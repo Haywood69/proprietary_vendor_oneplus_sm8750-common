@@ -10843,6 +10843,8 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdmmsrc_system.so",
             ],
             shared_libs: [
+                "libgui_shim",
+                "libaudiobase",
                 "libbinder",
                 "libmmosal",
                 "liblog",
@@ -10960,6 +10962,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdservice.so",
             ],
             shared_libs: [
+                "libaudiobase",
                 "liblog",
                 "libutils",
                 "libcutils",
